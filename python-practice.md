@@ -1,12 +1,17 @@
+# Python Practice
+
 https://www.python.org/
 
 pip（参考笔记 pip Practice）
 
 Virtualenv（参考笔记 Virtualenv Practice）
 
-# [Documentation](https://www.python.org/doc/)
+## Installation
 
-## [Python 3](https://docs.python.org/3/)
+
+## [Documentation](https://www.python.org/doc/)
+
+### [Python 3](https://docs.python.org/3/)
 
 [The Python Standard Library](https://docs.python.org/3/library/index.html)
 
@@ -16,7 +21,7 @@ Virtualenv（参考笔记 Virtualenv Practice）
 
 [General Index](https://docs.python.org/3/genindex.html)
 
-### String
+#### String
 
 [String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
