@@ -1,14 +1,57 @@
 # Python Practice
 
-https://www.python.org/
+https://www.python.org
 
-pip（参考笔记 pip Practice）
+https://github.com/python/cpython
 
-Virtualenv（参考笔记 Virtualenv Practice）
+## Practice Reference
+
+[PIP Practice](https://github.com/mrhuangyuhui/practice-manual/blob/master/pip-practice.md)
+
+[Virtualenv Practice](https://github.com/mrhuangyuhui/practice-manual/blob/master/virtualenv-practice.md)
+
+[Pyenv Practice](https://github.com/mrhuangyuhui/practice-manual/blob/master/pyenv-practice.md)
 
 ## Installation
 
+### [pyenv](https://github.com/pyenv/pyenv) (Recommended)
+
+### CentOS 7
+
+Prerequisites
+```
+$ yum group install 'Development Tools' -y
+$ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel readline-devel sqlite-devel -y
+```
 [Downloads](https://www.python.org/downloads/)
+
+Build
+```
+$ ./configure --prefix=/usr/local/Python/Python-3.6.2/
+$ make
+$ make test
+$ make install
+```
+
+Link (For version management)
+```
+$ cd /usr/local/Python/
+$ ln -s Python-3.6.2/ default
+```
+
+ENV
+```
+$ echo 'export PATH=/usr/local/Python/default/bin:$PATH' >> ~/.bash_profile
+$ source ~/.bash_profile
+```
+
+Verifying
+```
+$ python3 -V
+```
+
+- Ubuntu 
+
 
 ## [Documentation](https://www.python.org/doc/)
 
