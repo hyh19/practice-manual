@@ -8,6 +8,7 @@ Virtualenv（参考笔记 Virtualenv Practice）
 
 ## Installation
 
+[Downloads](https://www.python.org/downloads/)
 
 ## [Documentation](https://www.python.org/doc/)
 
