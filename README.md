@@ -1,1 +1,1 @@
-# practice-manual
+# Practice Manual
